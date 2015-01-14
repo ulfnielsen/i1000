@@ -1,0 +1,10 @@
+package test2;
+
+import aQute.bnd.annotation.component.*;
+
+@Component
+public class ExampleComponent2 {
+
+	// TODO: class provided by template
+
+}

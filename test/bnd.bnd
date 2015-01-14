@@ -1,0 +1,13 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	biz.aQute.bnd.annotation,\
+	${junit}
+-wab: www=www
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	test
+Service-Component:  \
+	*
+Export-Package:  \
+	test2
